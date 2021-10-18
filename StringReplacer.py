@@ -60,8 +60,8 @@ def StringReplace():
         print(Fore.GREEN + '\n            [+] String has been removed')
     except:
         print(f'        Usage: ')
-        print(f'           python3 {argv[0]} <file> <string-to-replace> <replacement-string>')
-        print(f'           python3 {argv[0]} <file> <string-to-remove>')
+        print(f'           Replace String: python3 {argv[0]} <file> <string-to-replace> <replacement-string>')
+        print(f'           Remove String: python3 {argv[0]} <file> <string-to-remove>')
         
 if __name__ == '__main__':
     StringReplace()
